@@ -1,0 +1,23 @@
+<?php
+
+/*
+ * Name: Neptune - mobile theme
+ * Description: Based on Frost-mobile
+ * Credits: Navigation icons taken from http://iconza.com. Other icons taken from http://thenounproject.com, including: Like, Dislike, Black Lock, Unlock, Pencil, Tag, Camera, Paperclip (Marie Coons), Folder (Sergio Calcara), Chain-link (Andrew Fortnum), Speaker (Harold Kim), Quotes (Henry Ryder), Video Camera (Anas Ramadan), and Left Arrow, Right Arrow, and Delete X (all three P.J. Onori). All under Attribution (CC BY 3.0). Others from The Noun Project are public domain or No Rights Reserved (CC0).
+ * Version: Version 0.1n
+ * Author: Zach P <windforest@f.shmuz.in>
+ * Maintainer: Oliver <oha@toktan.org>
+ */
+
+$a->theme_info = array();
+
+function neptune_init(&$a) {
+
+	// I could do this in style.php, but by having the CSS in a file the browser will cache it,
+	// making pages load faster
+	if( $a->module === 'home' || $a->module === 'login' || $a->module === 'register' || $a->module === 'lostpass' ) {
+		$a->page['htmlhead'] = str_replace('$stylesheet', $a->get_baseurl() . '/view/theme/neptune/login-style.css', $a->page['htmlhead']);
+
+	}
+
+}
