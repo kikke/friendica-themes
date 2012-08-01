@@ -4,7 +4,7 @@
  * Name: Neptune - mobile theme
  * Description: Based on Frost-mobile
  * Credits: Navigation icons taken from http://iconza.com. Other icons taken from http://thenounproject.com, including: Like, Dislike, Black Lock, Unlock, Pencil, Tag, Camera, Paperclip (Marie Coons), Folder (Sergio Calcara), Chain-link (Andrew Fortnum), Speaker (Harold Kim), Quotes (Henry Ryder), Video Camera (Anas Ramadan), and Left Arrow, Right Arrow, and Delete X (all three P.J. Onori). All under Attribution (CC BY 3.0). Others from The Noun Project are public domain or No Rights Reserved (CC0).
- * Version: Version 0.1n
+ * Version: Version 0.2.1
  * Author: Zach P <windforest@f.shmuz.in>
  * Maintainer: Oliver <oha@toktan.org>
  */
@@ -19,5 +19,7 @@ function neptune_init(&$a) {
 		$a->page['htmlhead'] = str_replace('$stylesheet', $a->get_baseurl() . '/view/theme/neptune/login-style.css', $a->page['htmlhead']);
 
 	}
+	if( $a->module === 'login' )
+		$a->page['end'] .= '<script type="text/javascript"> $j(document).ready(function() { $j("#id_" + window.loginName).focus();} );</script>';
 
 }
