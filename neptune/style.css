@@ -117,7 +117,7 @@ blockquote {
 /* NAVIGATION */
 nav {
 	position: fixed;
-		z-index: 100;
+		z-index: 15000;
 	height: 50px;
 /*	width: 100%;*/
 	width: 320px;
