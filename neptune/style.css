@@ -1,4 +1,4 @@
-/**                                                                                    /**
+/**
  * duepuntozero Friendica style
  * Fabio Comuni <fabrix.xm@gmail.com>
  *
@@ -233,8 +233,8 @@ nav .nav-link {
 
 .nav-menu-list {
 	text-align: center;
-	text-size: 12px;
-	line-height: 16px;
+	text-size: 18px;
+	line-height: 24px;
 
 	border-left: 1px solid #aaa;/*#444444;*/
 	border-right: 1px solid #aaa;
@@ -244,7 +244,7 @@ nav .nav-link {
 	display: none;
 	list-style: none;
 
-	width: 6em;
+	width: 8em;
 	position: absolute;
 	margin: 0px;
 /*	right: -33px;*/
@@ -254,7 +254,7 @@ nav .nav-link {
 	-webkit-box-shadow: 3px 3px 5px #555;
 	box-shadow: 3px 3px 5px #555;
 
-	z-index: 200000;
+	z-index: 10000;
 }
 
 #network-menu-list {
@@ -3732,7 +3732,7 @@ aside input[type='text'] {
 	max-height:150px;
 	background-color:#ffffff;
 	overflow:auto;
-	z-index:100000;
+	z-index:200000;
 	border:1px solid #cccccc;
 }
 .acpopupitem {
