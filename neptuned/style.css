@@ -1,16 +1,13 @@
-/**                                                                                    /**
- * duepuntozero Friendica style
+/**
+ * duepuntozero Frindika style
  * Fabio Comuni <fabrix.xm@gmail.com>
  *
- * Heavily modified for Frost Mobile
+ * Heavily modified for Frost
  * Zach P
- *
- * Slightly modified for Neptuned - The big brother of Neptune
- * Zen
  */
 
 
-/* GENERALS */
+/* generals */
 body {
 	font-family: helvetica,arial,freesans,clean,sans-serif;
 	font-size: 12px;
@@ -111,8 +108,6 @@ blockquote {
 
 /* nav */
 nav {
-	position: fixed;
-		z-index: 15000;
 	height: 94px;
 	width: 1100px;
 	display: block;
