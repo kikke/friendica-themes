@@ -3732,7 +3732,7 @@ aside input[type='text'] {
 	max-height:150px;
 	background-color:#ffffff;
 	overflow:auto;
-	z-index:200000;
+	z-index:10000;
 	border:1px solid #cccccc;
 }
 .acpopupitem {
