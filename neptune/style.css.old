@@ -363,22 +363,21 @@ section {
 .tabs {
 	/*background-image: url(head.jpg);
 	background-repeat: repeat-x;	
-	background-position: 0px -20px;
-	border-bottom: 1px solid #babdb6; */
+	background-position: 0px -20px;*/
+	border-bottom: 1px solid #babdb6;
 	padding:0px;
 }
-
-.tabs li { margin: 10px 2px 5px 2px; padding-left: 0.5em; list-style: none;	float:left;}
+.tabs li { margin: 0px 0px 10px 0px; padding-left: 0.5em; list-style: none; }
 .tabs a {
-	padding: 0.4em 0.4em;
-	border: 1px solid #bcbcbc;
+	padding: 0.2em 0.5em;
+	border: 1px solid #aaa;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px; 
+	-webkit-border-radius: 8px;
 }
 .tab {
 	/*display:block;*/
-	/* float:left; */
+	/*float:left;*/
 	padding-left: 1em;
 	padding-right: 0.4em;
 	padding-top: 0.4em;
@@ -412,12 +411,6 @@ footer {
 #theme-preview {
 	margin: 15px 0 15px 150px;
 }
-
-#profile-jot-form {
-	padding-top: 5.0em;
-}
-
-
 
 /* FROM DEFAULT */
 #jot-perms-icon, 
