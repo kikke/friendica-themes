@@ -162,7 +162,7 @@ nav #banner #logo-text a {
 	font-size: 40px;
 	font-weight: bold;
 	margin-left: 3px;
- 	color: #000000;
+	color: #000000;
 
 }
 nav #banner #logo-text a:hover { text-decoration: none; }
@@ -367,18 +367,17 @@ section {
 	border-bottom: 1px solid #babdb6; */
 	padding:0px;
 }
-
 .tabs li { margin: 10px 2px 5px 2px; padding-left: 0.5em; list-style: none;	float:left;}
 .tabs a {
 	padding: 0.4em 0.4em;
 	border: 1px solid #bcbcbc;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px; 
+	-webkit-border-radius: 8px;
 }
 .tab {
 	/*display:block;*/
-	/* float:left; */
+	/*float:left;*/
 	padding-left: 1em;
 	padding-right: 0.4em;
 	padding-top: 0.4em;
@@ -1263,7 +1262,7 @@ input#dfrn-url {
 
 .wall-item-like-buttons {
 	float: left;
-	margin-right: 10px;
+	margin-right: 3px;
 }
 
 .like-rotator {
@@ -1386,7 +1385,7 @@ input#dfrn-url {
 /*	background-image: url("head.jpg");
 	background-position: 0 -20px;
 	background-repeat: repeat-x;*/
-   	padding: 5px 10px 0px;
+   	padding: 5px 5px 0px;
 	height: 32px;
 }
 .wall-item-author {
@@ -2415,13 +2414,13 @@ aside input[type='text'] {
 }
 .photo-album-image-wrapper .caption {
 	display: none; 
- 	width: 100%;
+	width: 100%;
 /* 	position: absolute; */
- 	bottom: 0px; 
- 	padding: 0.5em 0.5em 0px 0.5em;
- 	background-color: rgba(245, 245, 255, 0.8);
- 	border-bottom: 2px solid #CCC;
- 	margin: 0px;
+	bottom: 0px; 
+	padding: 0.5em 0.5em 0px 0.5em;
+	background-color: rgba(245, 245, 255, 0.8);
+	border-bottom: 2px solid #CCC;
+	margin: 0px;
 }
 .photo-album-image-wrapper a:hover .caption {
 	display:block;
@@ -2449,13 +2448,13 @@ aside input[type='text'] {
 	-webkit-border-radius: 10px;
 }
 .photo-top-album-name {
- 	width: 100%;
- 	min-height: 2em;
+	width: 100%;
+	min-height: 2em;
 /* 	position: absolute;  */
- 	bottom: 0px; 
- 	padding: 0px 3px;
- 	padding-top: 0.5em;
- 	background-color: rgb(255, 255, 255);
+	bottom: 0px; 
+	padding: 0px 3px;
+	padding-top: 0.5em;
+	background-color: rgb(255, 255, 255);
 }
 #photo-top-end {
 	clear: both;
@@ -3900,4 +3899,22 @@ ul.notifications-menu-popup {
 #datebrowse-sidebar select {
 	margin-left: 40px;
 	width: 130px;
+}
+
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+{
+html {
+width:700px
+}
+div.section-wrapper {
+width:700px;
+margin-left:0px;
+}
+.wall-item-body {
+width:700px;
+}
+.comment .wall-item-body {
+width:650px;
+}
 }
