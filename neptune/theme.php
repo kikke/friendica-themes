@@ -15,16 +15,16 @@ function neptune_init(&$a) {
 
 	// I could do this in style.php, but by having the CSS in a file the browser will cache it,
 	// making pages load faster
-		if( $a->module === 'home' || $a->module === 'login' || $a->module === 'register' || $a->module === 'lostpass' ) {
-$a->page['htmlhead'] = str_replace('$stylesheet', $a->get_baseurl() . '/view/theme/frost-mobile/login-style.css', $a->page['htmlhead']);
+	if( $a->module === 'home' || $a->module === 'login' || $a->module === 'register' || $a->module === 'lostpass' ) {
+		$a->page['htmlhead'] = str_replace('$stylesheet', $a->get_baseurl() . '/view/theme/frost-mobile/login-style.css', $a->page['htmlhead']);
 
-}
-if( $a->module === 'login' )
-$a->page['end'] .= '<script type="text/javascript"> $j(document).ready(function() { $j("#id_" + window.loginName).focus();} );</script>';
+	}
+	if( $a->module === 'login' )
+		$a->page['end'] .= '<script type="text/javascript"> $j(document).ready(function() { $j("#id_" + window.loginName).focus();} );</script>';
 
 
-$a->sourcename = 'Friendica mobile web';
-$a->videowidth = 250;
-$a->videoheight = 200;
+	$a->sourcename = 'Friendica mobile web';
+	$a->videowidth = 250;
+	$a->videoheight = 200;
 
 }
