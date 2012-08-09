@@ -29,8 +29,8 @@ body {
 }
 
 div.container {
-	display: block;
-/*	width: 100%;*/
+/*	display: block;
+	width: 100%;*/
 	margin-top: 50px;
 	margin-bottom: 0px;
 	margin-left: auto;
