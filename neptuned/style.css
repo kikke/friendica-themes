@@ -25,10 +25,10 @@ body {
 div.container {
 	display: block;
 	width: 785 px;
-	margin-top: 0px;
+	margin-top: 90px;
 	margin-bottom: 0px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 100px;
 }
 
 a, a:visited, a:link { color: #3465a4; text-decoration: none; }
