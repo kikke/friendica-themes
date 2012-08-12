@@ -16,8 +16,8 @@ body {
 	font-size: 12px;
 /*	line-height: 24px;*/
 	background-color: #ffffff;
-	background-image: url(head.jpg);
-	background-repeat: repeat-x;
+/*	background-image: url(head.jpg); 
+	background-repeat: repeat-x;*/
 	color: #505050;
 	margin: 0px;
 }
@@ -109,12 +109,12 @@ blockquote {
 
 
 
-/* nav */
+/* NAVIGATION */
 nav {
 	position: fixed;
 		z-index: 15000;
 	height: 94px;
-	width: 1100px;
+	width: 100%;
 		background-color: #f9f9f9;
 	margin-top: 0px;
 	margin-bottom: 0px;
