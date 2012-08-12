@@ -16,7 +16,7 @@ body {
 	font-size: 12px;
 /*	line-height: 24px;*/
 	background-color: #ffffff;
-/*	background-image: url(head.jpg); 
+/*	background-image: url(head.jpg);
 	background-repeat: repeat-x;*/
 	color: #505050;
 	margin: 0px;
@@ -112,8 +112,8 @@ blockquote {
 /* NAVIGATION */
 nav {
 	position: fixed;
-		z-index: 15000;
-	height: 94px;
+		z-index: 99000;
+	height: 84px;
 	width: 100%;
 		background-color: #f9f9f9;
 	margin-top: 0px;
@@ -148,6 +148,7 @@ nav #site-location {
 nav #banner {
 	display: block;
 	margin-top: 14px;
+	margin-left: 100px;
 	position: absolute;
 }
 nav #banner #logo-text a {
