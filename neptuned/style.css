@@ -112,7 +112,7 @@ blockquote {
 /* NAVIGATION */
 nav {
 	position: fixed;
-		z-index: 15000;
+		z-index: 1;
 	height: 74px;
 	width: 90%;
 		background-color: #ffffff;
