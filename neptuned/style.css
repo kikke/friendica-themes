@@ -126,6 +126,7 @@ nav #site-location {
 	color: #888a85;
 	font-size: 0.8em;
 	position: absolute;
+	margin-left: 100px;
 }
 
 .error-message {
