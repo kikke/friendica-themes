@@ -260,10 +260,10 @@ div.main-container {
 	position: relative;
 }
 
-/*div.main-content-loading {
+/* div.main-content-loading {
 	position: absolute;
 margin-top: 100px;
-/*	top: 100px;
+	top: 100px;
 	left: 50%;
 	display: none; */
 }
@@ -324,7 +324,7 @@ div.section-wrapper {
 
 /* NETWORK */
 section {
-	margin: 100px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 
 	width: 100%;
 	padding-top: 84px;
