@@ -206,6 +206,7 @@ nav #banner #logo-text a:hover { text-decoration: none; }
 
 nav #nav-link-wrapper .nav-link {
 	/*border-right: 1px solid #babdb6;*/
+	margin-right: 50px;
 }
 
 nav .nav-link img {
@@ -218,7 +219,6 @@ nav .nav-link img {
 
 .nav-button-container {
 	float: right;
-	padding-right: 50px;
 	position: relative;
 }
 
