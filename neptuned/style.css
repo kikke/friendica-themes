@@ -113,7 +113,7 @@ blockquote {
 nav {
 	position: fixed;
 		z-index: 15000;
-	height: 184px;
+	height: 4px;
 	width: 100%;
 		background-color: #f9f9f9;
 	margin-top: 0px;
@@ -326,7 +326,7 @@ section {
 	margin: 0px 0px 0px 0px;
 
 	width: 100%;
-	padding-top: 484px;
+	padding-top: 84px;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 1em;
