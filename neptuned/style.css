@@ -16,8 +16,9 @@ body {
 	font-size: 12px;
 /*	line-height: 24px;*/
 	background-color: #ffffff;
-/*	background-image: url(head.jpg);
-	background-repeat: repeat-x;*/
+	background-image: url(head2.jpg);
+	background-repeat: repeat-x;	position: fixed;
+		z-index: 15000;
 	color: #505050;
 	margin: 0px;
 }
