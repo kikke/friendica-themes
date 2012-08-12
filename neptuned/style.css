@@ -208,11 +208,11 @@ nav #nav-link-wrapper .nav-link {
 	/*border-right: 1px solid #babdb6;*/
 }
 
+/* ABSTAND DER NAVIGATIONS ICONS */
 nav .nav-link img {
-	paddin-right: 100px;
 	margin-top: 24px;
 	margin-bottom: 0.2em;
-	margin-right: 1em;
+	margin-right: 10em;
 	margin-left: 1em;
 	background-color: transparent !important;
 }
