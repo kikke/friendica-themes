@@ -317,9 +317,9 @@ div.section-wrapper {
 	display: block;
 
 	background-color: #ffffff;
-	background-image: url(border.jpg);
+	/*background-image: url(border.jpg);
 	background-position: top right;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 /* NETWORK */
