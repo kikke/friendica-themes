@@ -256,17 +256,16 @@ nav .nav-link img {
 div.main-container {
 	width: 1180px;
 	margin: 0px auto;
-margin-top: 90px;
 	display: block;
 	position: relative;
 }
 
-/*div.main-content-loading {
+div.main-content-loading {
 	position: absolute;
-	top: 200px;
-	left: 50%;
-	display: none;
-}*/
+	top: 100px;
+/*	left: 50%;
+	display: none; */
+}
 
 
 /* aside */
