@@ -3736,7 +3736,7 @@ div.jGrowl div.info {
 	font-size: 10px;
 	padding: 1px 3px;
 	top: 0px;
-	right: 0px;
+	right: -10px;
 	min-width: 15px;
 	text-align: right;
 }
@@ -3748,7 +3748,7 @@ ul.notifications-menu-popup {
 	display: none;
 	width: 10em;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px 10px 0px 0px;
 	list-style: none;
 	z-index: 100000;
 	right: 0px;
