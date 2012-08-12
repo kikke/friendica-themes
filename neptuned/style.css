@@ -127,7 +127,6 @@ nav #site-location {
 	font-size: 0.8em;
 	position: absolute;
 	margin-left: 100px;
-	margin-right: 100px;
 }
 
 .error-message {
@@ -257,6 +256,7 @@ nav .nav-link img {
 div.main-container {
 	width: 1180px;
 	margin: 0px auto;
+margin-top: 90px;
 	display: block;
 	position: relative;
 }
