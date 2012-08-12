@@ -20,7 +20,6 @@ body {
 	background-repeat: repeat-x;*/
 	color: #505050;
 	margin: 0px;
-	margin-right: 50px;
 }
 
 div.container {
@@ -115,13 +114,13 @@ nav {
 	position: fixed;
 		z-index: 15000;
 	height: 74px;
-	width: 100%;
-		background-color: #f9f9f9;
+	width: 90%;
+/*		background-color: #f9f9f9;*/
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-		border-bottom: 1px solid #9c9b9b;
+/*		border-bottom: 1px solid #9c9b9b;*/
 }
 nav #site-location {
 	color: #888a85;
