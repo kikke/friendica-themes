@@ -127,6 +127,7 @@ nav #site-location {
 	font-size: 0.8em;
 	position: absolute;
 	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .error-message {
@@ -274,7 +275,7 @@ aside {
 	min-height: 112px;
 
 	width: 250px;
-		padding-top: 90px;
+
 	padding: 1em;
 	margin: 1em 0px 0px 0px;
 
