@@ -1,39 +1,4 @@
-<!--<script>
-	$(function(){
-		
-		$("#cnftheme").fancybox({
-			width: 800,
-			autoDimensions: false,
-			onStart: function(){
-				var theme = $("#id_theme :selected").val();
-				$("#cnftheme").attr('href',"$baseurl/admin/themes/"+theme);
-			}, 
-			onComplete: function(){
-				$("div#fancybox-content form").submit(function(e){
-					var url = $(this).attr('action');
-					// can't get .serialize() to work...
-					var data={};
-					$(this).find("input").each(function(){
-						data[$(this).attr('name')] = $(this).val();
-					});
-					$(this).find("select").each(function(){
-						data[$(this).attr('name')] = $(this).children(":selected").val();
-					});
-					console.log(":)", url, data);
-					
-					$.post(url, data, function(data) {
-						if(timer) clearTimeout(timer);
-						NavUpdate();
-						$.fancybox.close();
-					})
-					
-					return false;
-				});
-				
-			}
-		});
-	});
-</script>-->
+
 <div id='adminpage'>
 	<h1>$title - $page</h1>
 	
@@ -70,6 +35,7 @@
 	{{ inc field_checkbox.tpl with $field=$ostatus_disabled }}{{ endinc }}
 	{{ inc field_checkbox.tpl with $field=$diaspora_enabled }}{{ endinc }}
 	{{ inc field_checkbox.tpl with $field=$dfrn_only }}{{ endinc }}
+	{{ inc field_checkbox.tpl with $field=$thread_allow }}{{ endinc }}
 	{{ inc field_input.tpl with $field=$global_directory }}{{ endinc }}
 	
 	<div class="submit"><input type="submit" name="page_site" value="$submit" /></div>

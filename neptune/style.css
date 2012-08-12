@@ -1431,6 +1431,13 @@ input#dfrn-url {
 	margin-right: 10px;
 }
 
+.comment-wwedit-wrapper.comment {
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 10px;
+}
+
+
 .comment-edit-photo {
 	margin-top: 15px;
 	margin-left: 10px;
@@ -1470,12 +1477,21 @@ input#dfrn-url {
 	margin-left: 20px;
 }
 
+.comment .comment-edit-text-empty {
+	width: 120px;
+}
+.comment .comment-edit-text-full {
+	margin-left: 10px;
+	width: 210px;
+}
+
+
 .comment-edit-text-end {
 	clear: both;
 }
 
 .comment-edit-submit {
-	font-size: 18px;
+	font-size: 16px;
 	padding: 5px 10px;
 	margin: 10px 0px 10px 110px;
 }
@@ -1491,7 +1507,7 @@ input#dfrn-url {
 
 #profile-jot-submit {
 	float: left;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 5px 8px;
 }
 #profile-upload-wrapper {
@@ -1970,7 +1986,7 @@ input#dfrn-url {
 .contact-edit-submit {
 	margin-top: 20px;
 	padding: 0.2em 0.5em;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 
@@ -2210,7 +2226,7 @@ input#dfrn-url {
 
 #prvmail-submit {
 	float: left;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0.25em 0.5em;
 	margin-top: 10px;
 	margin-right: 30px;
@@ -2660,7 +2676,7 @@ aside input[type='text'] {
 #photo-edit-submit-button, #photo-edit-delete-button, #photos-upload-submit {
 	margin-top: 30px;
 	padding: 0.25em 0.5em;
-	font-size: 18px;
+	font-size: 16px;
 }
 #photo-edit-submit-button {
 	margin-left: 10px;
@@ -2681,7 +2697,7 @@ aside input[type='text'] {
 .settings-submit, .profile-edit-submit-button {
 	padding: 0.25em 0.5em;
 	margin-bottom: 10px;
-	font-size: 18px;
+	font-size: 16px;
 }
 #photo-edit-end {
 	margin-bottom: 35px;

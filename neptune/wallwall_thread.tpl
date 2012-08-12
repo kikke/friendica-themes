@@ -1,3 +1,11 @@
+{{if $item.comment_firstcollapsed}}
+	<div class="hide-comments-outer">
+	<span id="hide-comments-total-$item.id" class="hide-comments-total">$item.num_comments</span> <span id="hide-comments-$item.id" class="hide-comments fakelink" onclick="showHideComments($item.id);">$item.hide_text</span>
+	</div>
+	<div id="collapsed-comments-$item.id" class="collapsed-comments" style="display: none;">
+{{endif}}
+{{if $item.comment_lastcollapsed}}</div>{{endif}}
+<div id="tread-wrapper-$item.id" class="tread-wrapper $item.toplevel">
 <a name="$item.id" ></a>
 <!--<div class="wall-item-outside-wrapper $item.indent$item.previewing wallwall" id="wall-item-outside-wrapper-$item.id" >-->
 	<div class="wall-item-content-wrapper $item.indent" id="wall-item-content-wrapper-$item.id" >
@@ -7,7 +15,7 @@
 				<img src="$item.owner_photo" class="wall-item-photo$item.osparkle" id="wall-item-ownerphoto-$item.id" style="height: 80px; width: 80px;" alt="$item.owner_name" /></a>
 			</div>
 			<div class="wall-item-arrowphoto-wrapper" ><img src="images/larrow.gif" alt="$item.wall" /></div>
-<!--			<div class="wall-item-photo-wrapper wwfrom" id="wall-item-photo-wrapper-$item.id" 
+			<!--<div class="wall-item-photo-wrapper wwfrom" id="wall-item-photo-wrapper-$item.id" 
 				onmouseover="if (typeof t$item.id != 'undefined') clearTimeout(t$item.id); openMenu('wall-item-photo-menu-button-$item.id')"
                 onmouseout="t$item.id=setTimeout('closeMenu(\'wall-item-photo-menu-button-$item.id\'); closeMenu(\'wall-item-photo-menu-$item.id\');',200)">-->
 			<div class="wall-item-photo-wrapper wwfrom" id="wall-item-photo-wrapper-$item.id">
@@ -77,11 +85,25 @@
 	<!--<div class="wall-item-wrapper-end"></div>-->
 	<div class="wall-item-like $item.indent" id="wall-item-like-$item.id">$item.like</div>
 	<div class="wall-item-dislike $item.indent" id="wall-item-dislike-$item.id">$item.dislike</div>
-	<div class="wall-item-comment-separator"></div>
-	<!--<div class="wall-item-comment-wrapper">-->
-	$item.comment
+
+	{{ if $item.threaded }}
+	{{ if $item.comment }}
+	<!--<div class="wall-item-comment-wrapper $item.indent" >-->
+		$item.comment
 	<!--</div>-->
+	{{ endif }}
+	{{ endif }}
 
 <!--<div class="wall-item-outside-wrapper-end $item.indent" ></div>-->
 <!--</div>-->
+{{ for $item.children as $item }}
+	{{ inc $item.template }}{{ endinc }}
+{{ endfor }}
+
+{{ if $item.flatten }}
+<!--<div class="wall-item-comment-wrapper" >-->
+	$item.comment
+<!--</div>-->
+{{ endif }}
+</div>
 
