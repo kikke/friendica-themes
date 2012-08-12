@@ -156,7 +156,7 @@ nav #banner #logo-text a {
 	font-size: 40px;
 	font-weight: bold;
 	margin-left: 3px;
- 	color: #000000;
+	color: #000000;
 
 }
 nav #banner #logo-text a:hover { text-decoration: none; }
@@ -209,6 +209,7 @@ nav #nav-link-wrapper .nav-link {
 }
 
 nav .nav-link img {
+	paddin-right: 100px;
 	margin-top: 24px;
 	margin-bottom: 0.2em;
 	margin-right: 1em;
