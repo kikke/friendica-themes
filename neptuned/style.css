@@ -111,16 +111,16 @@ blockquote {
 
 /* NAVIGATION */
 nav {
-	position: relative;
+	position: fixed;
 		z-index: 15000;
 	height: 74px;
 	width: 100%;
 		background-color: #ffffff;
-		border-bottom: 1px solid #9c9b9b;
+/*		border-bottom: 1px solid #9c9b9b;*/
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
-	margin-right: 40px;
+	margin-right: auto;
 
 }
 nav #site-location {
