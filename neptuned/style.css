@@ -218,8 +218,7 @@ nav .nav-link img {
 
 .nav-button-container {
 	float: right;
-	position: absolute;
-	margin-right: 50px;
+	position: relativ;
 }
 
 .nav-button-container .nav-ajax-left {
