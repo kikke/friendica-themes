@@ -16,7 +16,7 @@ body {
 	font-size: 12px;
 /*	line-height: 24px;
 	background-color: #ffffff;*/
-	background-image: url(head2.jpg);
+	background-image: url(head2.jpg) z-index: 15000 position: fixed;
 	background-repeat: repeat-x;
 	color: #505050;
 	margin: 0px;
