@@ -112,7 +112,7 @@ blockquote {
 /* NAVIGATION */
 nav {
 	position: fixed;
-		z-index: 99000;
+		z-index: 15000;
 	height: 84px;
 	width: 100%;
 		background-color: #f9f9f9;
@@ -150,6 +150,7 @@ nav #banner {
 	display: block;
 	margin-top: 14px;
 	margin-left: 100px;
+	margin-right: 100px;
 	position: absolute;
 }
 nav #banner #logo-text a {
@@ -321,11 +322,12 @@ div.section-wrapper {
 	background-repeat: no-repeat;
 }
 
+/* NETWORK */
 section {
 	margin: 0px 0px 0px 0px;
 
 	width: 100%;
-
+	padding-top: 84px;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 1em;
