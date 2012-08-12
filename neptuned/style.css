@@ -113,7 +113,7 @@ blockquote {
 nav {
 	position: fixed;
 		z-index: 15000;
-	height: 84px;
+	height: 184px;
 	width: 100%;
 		background-color: #f9f9f9;
 	margin-top: 0px;
@@ -150,7 +150,6 @@ nav #banner {
 	display: block;
 	margin-top: 14px;
 	margin-left: 100px;
-	margin-right: 100px;
 	position: absolute;
 }
 nav #banner #logo-text a {
