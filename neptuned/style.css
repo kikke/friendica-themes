@@ -211,14 +211,13 @@ nav #nav-link-wrapper .nav-link {
 nav .nav-link img {
 	margin-top: 24px;
 	margin-bottom: 0.2em;
-	margin-right: 1em;
+	margin-right: 10em;
 	margin-left: 1em;
 	background-color: transparent !important;
 }
 
 .nav-button-container {
-	/*float: right;*/
-	margin-right: 50px;
+	float: right;
 	position: relative;
 }
 
