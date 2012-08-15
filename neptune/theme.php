@@ -16,7 +16,7 @@ function neptune_init(&$a) {
 	// I could do this in style.php, but by having the CSS in a file the browser will cache it,
 	// making pages load faster
 	if( $a->module === 'home' || $a->module === 'login' || $a->module === 'register' || $a->module === 'lostpass' ) {
-		$a->page['htmlhead'] = str_replace('$stylesheet', $a->get_baseurl() . '/view/theme/frost-mobile/login-style.css', $a->page['htmlhead']);
+		$a->page['htmlhead'] = str_replace('$stylesheet', $a->get_baseurl() . '/view/theme/neptune/login-style.css', $a->page['htmlhead']);
 
 	}
 	if( $a->module === 'login' )
