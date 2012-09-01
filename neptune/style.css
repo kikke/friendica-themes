@@ -264,7 +264,7 @@ nav .nav-link {
 	-webkit-box-shadow: 3px 3px 5px #555;
 	box-shadow: 3px 3px 5px #555;
 
-	z-index: 250000;
+	z-index: 10000;
 }
 
 #network-menu-list {
@@ -3876,7 +3876,7 @@ ul.notifications-menu-popup {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	z-index: 100000;
+	z-index: 250000;
 	right: -55px;
 }
 #nav-notifications-menu {
