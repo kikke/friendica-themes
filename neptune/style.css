@@ -3821,11 +3821,13 @@ div.jGrowl div.notice {
   background: #511919 url("../../../images/icons/48/notice.png") no-repeat 5px center;
   color: #ffffff;
   padding-left: 58px;
+  	z-index:210000;
 }
 div.jGrowl div.info {
   background: #364e59 url("../../../images/icons/48/info.png") no-repeat 5px center;
   color: #ffffff;
   padding-left: 58px;
+  	z-index:210000;
 }
 #jGrowl.top-right {
 	top: 15px;
@@ -3876,7 +3878,7 @@ ul.notifications-menu-popup {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	z-index: 250000;
+	z-index: 10000;
 	right: -55px;
 }
 #nav-notifications-menu {
