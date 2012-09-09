@@ -57,7 +57,7 @@ img { border :0px; }
    background: url(login-bg.gif) no-repeat;
    background-position: 0 50%;
    padding-left: 18px;
-   width: 212px;
+   width: 252px;
    margin-left: 20px;
 }
 .openid:hover {
@@ -298,6 +298,7 @@ div.main-container {
 /* ASIDE */
 /*aside {
 	display: block;
+	display: none;
 	min-height: 112px;
 
 	width: 250px;
@@ -306,6 +307,8 @@ div.main-container {
 	margin: 1em 0px 0px 0px;
 
 	position: absolute;
+
+	float:left;*/
 }*/
 
 #dfrn-request-link {
@@ -370,11 +373,11 @@ section {
 .tabs {
 	/*background-image: url(head.jpg);
 	background-repeat: repeat-x;	
-	background-position: 0px -20px;*/
-	border-bottom: 1px solid #babdb6;
+	background-position: 0px -20px;
+	border-bottom: 1px solid #babdb6;*/
 	padding:0px;
 }
-.tabs li { margin: 0px 0px 20px 0px; padding-left: 1em; list-style: none; }
+.tabs li { margin: 10px 2px 5px 2px; padding-left: 0.5em; list-style: none; float: left;}
 .tabs a {
 	padding: 0.4em 0.4em;
 	border: 1px solid #bcbcbc;
@@ -1036,12 +1039,14 @@ input#dfrn-url {
 #id_mobile_theme {
 	width: 280px;
 }
-/*.settings-widget ul {
-	list-style-type: none;
-	padding: 0px;
+.settings-widget ul {
+	float: none;
+/*	list-style-type: none;
+	padding: 0px; */
 }
 
 .settings-widget li {
+	float: none;
 	margin-left: 24px;
 	margin-bottom: 8px;
 }*/
@@ -1057,7 +1062,7 @@ input#dfrn-url {
 }
 
 #contacts-search-submit {
-	font-size: 18px;
+	font-size: 16px;
 	padding: 5px 10px;
 }
 
@@ -2112,7 +2117,7 @@ input#dfrn-url {
 	float: left;
 	display: block;
 	width: auto;
-	height: 18px;
+	height: 16px;
 	background-color: #cccccc;
 	background-image: url("../../../images/show_all_off.png");
 	background-position: 7px 7px;
@@ -2432,7 +2437,7 @@ a.mail-list-link {
 	margin-top: 5px;
 }
 #side-follow-submit, #side-peoplefind-submit {
-	font-size: 18px;
+	font-size: 16px;
 	padding: 5px 10px;
 	margin: 10px 0px 10px 10px;
 }
@@ -2447,8 +2452,8 @@ aside input[type='text'] {
 
 .widget {
 	border: 1px solid #DDDDDD;
-	padding: 18px;
-	margin-top: 5px;
+	padding: 16px;
+	margin-top: 50px;
 /*	-moz-border-radius:5px;*/
 	-webkit-border-radius:5px;
 	border-radius:5px;
@@ -3362,7 +3367,7 @@ aside input[type='text'] {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	overflow: auto;
-/*	width: 100%*/
+/*	width: 100% */
 }
 
 .field label {
@@ -3373,12 +3378,12 @@ aside input[type='text'] {
 
 .field input,
 .field textarea {
-	width: 230px;
+	width: 270px;
 	margin-left: 20px;
 }
 .field input[type=checkbox],
 .field input[type=radio] {
-	width: auto;
+	width: auto;	
 }
 .field textarea { height: 100px; }
 .field_help {
@@ -3723,7 +3728,7 @@ aside input[type='text'] {
 }
 [class^="comment-edit-bb"] > li {
 	display: inline-block;
-	margin: 20px 10px 0 0;
+	margin: 10px 10px 0 0;
 	visibility: none;
 }
 /*[class^="comment-edit-bb-end"] {
@@ -4002,4 +4007,3 @@ width:650px;
 	}
 
 }
-
