@@ -375,8 +375,7 @@ section {
 	border-bottom: 1px solid #babdb6;
 	padding:0px;
 }
-.tabs li { margin: 0px 0px 20px 0px; padding-left: 1em; list-style: none; float: left; }
-/* .tabs li { margin: 10px 2px 5px 2px; padding-left: 0.5em; list-style: none; float:left;} */
+.tabs li { margin: 10px 2px 5px 2px; padding-left: 0.5em; list-style: none; float:left;}
 
 .tabs a {
 	padding: 0.4em 0.4em;
