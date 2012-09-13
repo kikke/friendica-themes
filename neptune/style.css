@@ -298,7 +298,6 @@ div.main-container {
 /* ASIDE */
 /*aside {
 	display: block;
-	display: none;
 	min-height: 112px;
 
 	width: 250px;
@@ -307,8 +306,6 @@ div.main-container {
 	margin: 1em 0px 0px 0px;
 
 	position: absolute;
-
-	float:left;*/
 }*/
 
 #dfrn-request-link {
@@ -406,8 +403,8 @@ section {
 
 /* FOOTER */
 footer {
-    display: none;
-
+	text-align: center;
+	padding-bottom: 1em;
 }
 
 .birthday-today, .event-today {
@@ -1039,6 +1036,8 @@ input#dfrn-url {
 #id_mobile_theme {
 	width: 280px;
 }
+/** WIDGET SETTINGS **/
+
 .settings-widget ul {
 	float: none;
 /*	list-style-type: none;
@@ -3383,7 +3382,7 @@ aside input[type='text'] {
 }
 .field input[type=checkbox],
 .field input[type=radio] {
-	width: auto;	
+	width: auto;
 }
 .field textarea { height: 100px; }
 .field_help {
