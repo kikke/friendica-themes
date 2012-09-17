@@ -1365,6 +1365,10 @@ input#dfrn-url {
 }
 
 .wall-item-content img {
+	display: block;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
 	max-width: 290px;
 	border-radius: 7px;
 /*	-moz-border-radius: 7px;*/
@@ -1429,6 +1433,7 @@ input#dfrn-url {
 	background-repeat: repeat-x;*/
    	padding: 5px 5px 0px;
 	height: 32px;
+
 }
 .wall-item-author {
 /*	margin-top: 10px;*/
@@ -3609,7 +3614,13 @@ aside input[type='text'] {
 	background-image: url('images/globe.png');
 	background-repeat: no-repeat;
 }
-.noglobe { background-position: -16px -16px;}
+/*.noglobe { background-position: -16px -16px;}*/
+.icon.noglobe {
+	display: block; width: 24px; height: 24px;
+	background-size: 100% 100%;
+	background-image: url('images/noglobe.png');
+	background-repeat: no-repeat;
+}
 .no { background-position: -32px -16px;}
 .pause { background-position: -48px -16px;}
 .play { background-position: -64px -16px;}
