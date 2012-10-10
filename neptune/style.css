@@ -1154,6 +1154,10 @@ input#dfrn-url {
 	margin-top: 10px;
 }
 
+.toplevel_item {
+	margin-bottom: 60px;
+}
+
 .wall-item-content-wrapper {
 	margin-top: 60px;
 	padding-top: 30px;
@@ -1409,6 +1413,7 @@ input#dfrn-url {
 .wall-item-body {
 	text-align: justify;
 	float: left;
+	clear: left;
 /*	width: 300px;*/
 	overflow: hidden;
 	margin-top: 10px;
@@ -3301,6 +3306,11 @@ aside input[type='text'] {
 }
 #event-submit {
 	margin-top: 10px;
+}
+
+.filesavetags, .categorytags {
+	display: block;
+	clear: left;
 }
 
 .body-tag, .filesavetags, .categorytags {
