@@ -14,12 +14,13 @@
 body {
 	font-family: helvetica,arial,freesans,clean,sans-serif;
 	font-size: 12px;
-/*	line-height: 24px;*/
+/*	line-height: 24px;
 	background-color: #ffffff;
-	background-image: url(head.jpg);
+	background-image: url(head.jpg) fixed;
 	background-repeat: repeat-x;
-	color: #505050;
+	color: #505050;*/
 	margin: 0px;
+
 }
 
 div.container {
@@ -112,16 +113,23 @@ blockquote {
 
 /* nav */
 nav {
-	height: 94px;
-	width: 1100px;
+position: fixed;
+z-index: 15000;
+	height: 90px;
+	width: 100%;
 	display: block;
+	/*		background-color: #bbb9b9;*/
+		background-image: url(head.jpg);
+			background-repeat: repeat-x;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
+/*			border-bottom: 1px solid #9c9b9b;*/
 	
 }
 nav #site-location {
+	left: 20px;
 	color: #888a85;
 	font-size: 0.8em;
 	position: absolute;
@@ -145,6 +153,7 @@ nav #site-location {
 
 
 nav #banner {
+	left: 20px;
 	display: block;
 	margin-top: 14px;
 	position: absolute;
@@ -214,7 +223,9 @@ nav .nav-link img {
 }
 
 .nav-button-container {
+right: 15%;
 	float: right;
+	
 	position: relative;
 }
 
@@ -273,7 +284,7 @@ aside {
 	width: 250px;
 
 	padding: 1em;
-	margin: 1em 0px 0px 0px;
+	margin: 98px 0px 0px 0px;
 
 	position: absolute;
 
@@ -303,16 +314,15 @@ aside {
 
 /* section */
 section {
-	width: auto;
+	width: 750px;
 	display: block;
 	margin-left: 265px;
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 1em;
+	padding-top: 98px;
 
 	background-color: #ffffff;
 /*	background-image: url(border.jpg);
@@ -320,17 +330,17 @@ section {
 	background-repeat: no-repeat;*/
 
 	min-height: 112px;
-	border-top: 1px solid #babdb6;
+/*	border-top: 1px solid #babdb6; */
 	border-left: 1px dotted #AAA;
 	border-right: 1px dotted #AAA;
 }
 
 .tabs {
 	height: 27px;
-	background-image: url(head.jpg);
+/*	background-image: url(head.jpg);
 	background-repeat: repeat-x;	
 	background-position: 0px -20px;
-	border-bottom: 1px solid #babdb6;
+	border-bottom: 1px solid #babdb6;*/
 	padding:0px;
 }
 .tabs li { margin: 0px; list-style: none; }
@@ -2961,8 +2971,8 @@ aside input[type='text'] {
 
 #language-selector {
 	position: absolute;
-	top: 0px;
-	left: 16px;
+	top: 70px;
+	left: 40px;
 }
 
 #group-members {
@@ -3154,8 +3164,8 @@ aside input[type='text'] {
 #lang-select-icon {
 	cursor: pointer;
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 20px;
+	top: 70px;
 	opacity: 0.2;
 	filter:alpha(opacity=20);
 }
