@@ -1,0 +1,4 @@
+cleandia
+========
+
+Cleandia Friendica theme
