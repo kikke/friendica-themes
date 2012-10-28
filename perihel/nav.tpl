@@ -135,7 +135,6 @@
 
 <div style="position: fixed; bottom: 5px; right: 10px;"><a href="javascript:scroll(0,0); "><img src="view/theme/perihel/icons/scroll_top.png" title="scroll to top"></a></div>
 <div style="position: fixed; bottom: 3px; left: 25px;">$langselector</div>
-<div style="position: fixed; bottom: 23px; left: 5px;"><a href="http://pad.toktan.org/p/perihel" target="blank" ><img src="view/theme/perihel/icons/bluebug.png" title="report bugs for the theme perihel"/></a></div>
 
 
 

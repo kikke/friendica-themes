@@ -5,6 +5,7 @@
  * Description: A friendica theme
  * Version: 0.1
  * Author: Oliver <oha@toktan.org>
+ * Maintainer: Oliver <oha@toktan.org>
  */
 
 $a->theme_info = array(
