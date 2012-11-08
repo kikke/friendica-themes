@@ -68,7 +68,7 @@ img { border :0px; }
 	width: 384px;
 }*/
 
-code {
+/*code {
 	font-family: Courier, monospace;
 	white-space: pre;
 	display: block;
@@ -88,6 +88,24 @@ blockquote {
 	margin-right: 0px;
 	width: 260px;
 	overflow: hidden;
+}*/
+
+code {
+	font-family: Courier, monospace;
+	white-space: pre;
+	display: block;
+	overflow: auto;
+	border: 1px solid #444;
+	background: #EEE;
+	color: #444;
+	padding: 10px;
+	margin-top: 20px; 
+}
+
+blockquote {
+	background-color: #f4f8f9;
+	border-left: 4px solid #dae4ee;
+	padding: 0.4em;
 }
 
 .icollapse-wrapper, .ccollapse-wrapper {
@@ -1386,8 +1404,17 @@ input#dfrn-url {
 	-webkit-border-radius: 0;
 }
 
+.wall-item-content blockquote {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .comment .wall-item-content img {
 	max-width: 280px;
+}
+
+.comment .wall-item-content ul {
+	padding-left: 1.5em;
 }
 
 .divgrow-showmore {
@@ -1429,7 +1456,6 @@ input#dfrn-url {
 }
 
 .wall-item-body code {
-	width: 260px;
 	overflow: hidden;
 }
 
@@ -1437,12 +1463,6 @@ input#dfrn-url {
 	margin-left: 5px;
 	padding-right: 0.5em;
 /*	width: 280px;*/
-}
-
-.comment .wall-item-body blockquote {
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 260px;
 }
 
 .wall-item-tools {
@@ -4027,7 +4047,7 @@ width:650px;
 }
 }*/
 
-@media only screen and (min-device-width: 768px)
+/*@media only screen and (min-device-width: 768px)
 {
 	.wall-item-body code {
 		width: 700px;
@@ -4041,5 +4061,5 @@ width:650px;
 		width: 700px;
 	}
 
-}
+}*/
 
