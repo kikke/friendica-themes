@@ -1,0 +1,12 @@
+/* 
+Changed files:
+
+theme.php
+photo_view.tpl
+nav.tpl
+login_head.tpl
+head.tpl
+end.tpl
+default.php
+style.css
+

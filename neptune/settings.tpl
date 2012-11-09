@@ -2,9 +2,6 @@
 
 $nickname_block
 
-<a href='/settings/display/'>Theme Settings</a>
-
-
 <form action="settings" id="settings-form" method="post" autocomplete="off" >
 <input type='hidden' name='form_security_token' value='$form_security_token'>
 

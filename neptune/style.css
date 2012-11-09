@@ -10,7 +10,7 @@
  */
 
 
-/* GENERALS */
+/** GENERALS **/
 html {
 /*	width: 320px;*/
 	margin-left: auto;
@@ -57,7 +57,7 @@ img { border :0px; }
    background: url(login-bg.gif) no-repeat;
    background-position: 0 50%;
    padding-left: 18px;
-   width: 252px;
+   width: 212px;
    margin-left: 20px;
 }
 .openid:hover {
@@ -139,7 +139,7 @@ blockquote {
 
 
 
-/* NAVIGATION */
+/** NAVIGATION **/
 nav {
 	position: fixed;
 		z-index: 15000;
@@ -240,7 +240,7 @@ nav #nav-link-wrapper .nav-link {
 	/*border-right: 1px solid #babdb6;*/
 }
 
-/* ABSTAND DER NAVIGATIONS ICONS */
+/** NAVIGATION ICON DISTANCE **/
 nav .nav-link {
 	margin-top: 10px;
 	margin-bottom: 0.2em;
@@ -313,7 +313,7 @@ div.main-container {
 }*/
 
 
-/* ASIDE */
+/** ASIDE **/
 /*aside {
 	display: block;
 	min-height: 112px;
@@ -347,7 +347,7 @@ div.main-container {
 	background-color: #3465a4;
 }
 
-/* SECTION */
+/** SECTION **/
 div.section-wrapper {
 /*	width: 100%;*/
 /*	width: 320px;
@@ -366,7 +366,7 @@ div.section-wrapper {
 	background-repeat: no-repeat;
 }
 
-/* NETWORK */
+/** NETWORK **/
 section {
 	margin: 0px 0px 0px 0px;
 
@@ -384,7 +384,7 @@ section {
 	overflow-x:hidden;
 }
 
-/* TABS */
+/** TABS **/
 .tabs {
 	/*background-image: url(head.jpg);
 	background-repeat: repeat-x;	
@@ -419,7 +419,7 @@ section {
 }
 
 
-/* FOOTER */
+/** FOOTER **/
 footer {
 	text-align: center;
 	padding-bottom: 1em;
@@ -445,7 +445,7 @@ footer {
 	margin-bottom: 15px;
 }
 
-/* from default */
+/** FROM DEFAULT **/
 #jot-perms-icon, 
 #profile-location,
 #profile-nolocation,
@@ -1066,7 +1066,7 @@ input#dfrn-url {
 	float: none;
 	margin-left: 24px;
 	margin-bottom: 8px;
-}*/
+}
 
 
 #gender-select, #marital-select, #sexual-select {
@@ -2245,7 +2245,7 @@ input#dfrn-url {
 }
 .acl-list-item.groupshow { border-color: #9ade00; }
 .acl-list-item.grouphide { border-color: #ff4141; }
-/** /acl **/
+/** /ACL **/
 
 
 #group-new-submit-wrapper {
@@ -2945,7 +2945,7 @@ aside input[type='text'] {
 	margin-bottom: 20px;
 }
 
-/* END FROM DEFAULT */
+/** END FROM DEFAULT **/
 	
 
 .fn {
@@ -3398,9 +3398,7 @@ aside input[type='text'] {
 
 
 
-/**
- * PLUGIN SETTINGS
- */
+/** PLUGIN SETTINGS **/
 
 .settings-block > h3,
 .settings-heading {
@@ -3408,14 +3406,12 @@ aside input[type='text'] {
 }
  
 
-/**
- * FORM FIELDS
- */
+/** FORM FIELDS **/
 .field {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	overflow: auto;
-/*	width: 100% */
+/*	width: 100%*/
 }
 
 .field label {
@@ -3426,7 +3422,7 @@ aside input[type='text'] {
 
 .field input,
 .field textarea {
-	width: 270px;
+	width: 230px;
 	margin-left: 20px;
 }
 .field input[type=checkbox],
@@ -3440,6 +3436,7 @@ aside input[type='text'] {
 	color: #666666;
 	
 }
+
 
 
 .field .onoff {
@@ -3476,9 +3473,7 @@ aside input[type='text'] {
 
 .field.radio .field_help { clear: left; margin-left: 20px; }
 
-/**
- * ADMIN
- */
+/** ADMIN **/
 #pending-update {
 	float:right;
 	color: #ffffff;
@@ -3542,9 +3537,7 @@ aside input[type='text'] {
 	display: none;
 }
 
-/*
- * UPDATE
- */
+/** UPDATE **/
 .popup { 	
 	width: 100%; height: 100%;
 	top:0px; left:0px;
@@ -3572,9 +3565,7 @@ aside input[type='text'] {
 .panel_text .progress { width: 50%; overflow: hidden; height: auto; border: 1px solid #cccccc; margin-bottom: 5px}
 .panel_text .progress span {float: right; display: block; width: 25%; background-color: #eeeeee; text-align: right;}
 
-/**
- * OAuth
- */
+/** OAuth **/
 .oauthapp {
 	height: auto; overflow: auto;
 	border-bottom: 2px solid #cccccc;
@@ -3595,9 +3586,7 @@ aside input[type='text'] {
 	float: left;
 }
 
-/**
- * ICONS
- */
+/** ICONS **/
 .iconspacer {
 	display: block; width: 16px; height: 16px;
 }
@@ -3875,7 +3864,7 @@ aside input[type='text'] {
 .type-unkn  { background-position: -80px 0px; }
 
 
-/* autocomplete popup */
+/** AUTOCOMPLETE POPUP **/
 .acpopup {
 	max-height:150px;
 	background-color:#ffffff;
@@ -3896,7 +3885,7 @@ aside input[type='text'] {
 	color: #FFFFFF; background: #3465A4;
 }
 
-/* popup notifications */
+/** POPUP NOTIFICATIONS **/
 div.jGrowl div.notice {
   background: #511919 url("../../../images/icons/48/notice.png") no-repeat 5px center;
   color: #ffffff;
@@ -3935,7 +3924,7 @@ div.jGrowl div.info {
 	filter:alpha(opacity=100);
 }
 
-/* notifications popup menu */
+/** NOTIFICATION POPUP MENU **/
 .nav-notify {
 	display: none;
 	position: absolute;

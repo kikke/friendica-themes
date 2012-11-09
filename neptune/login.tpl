@@ -25,6 +25,8 @@
 		<input type="submit" name="submit" id="login-submit-button" value="$login" />
 	</div>
 
+	{{ inc field_checkbox.tpl with $field=$lremember }}{{ endinc }}
+
 	<br /><br />
 	<div class="login-extra-links">
 		{{ if $register }}<a href="register" title="$register.title" id="register-link">$register.desc</a>{{ endif }}
@@ -40,4 +42,4 @@
 </form>
 </div>
 
-<script type="text/javascript"> $(document).ready(function() { $("#id_$lname.0").focus();} );</script>
+<script type="text/javascript">window.loginName = "$lname.0";</script>
