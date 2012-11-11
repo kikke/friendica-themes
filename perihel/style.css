@@ -111,7 +111,7 @@
 .icon.unlock		{ background-image: url("../../../view/theme/perihel/icons/unlock.png");}
 .icon.isstar    { background-image: url("../../../view/theme/perihel/icons/isstar.png");}
 .icon.language    { background-image: url("../../../view/theme/perihel/icons/language.png");}
-
+.icon.file-as    { background-image: url("../../../view/theme/perihel/icons/file_as.png");}
 
 .camera 	{ background-image: url("../../../view/theme/perihel/icons/camera.png"); 
 			  display: block; width: 28px; height: 28px; background-repeat: no-repeat;
