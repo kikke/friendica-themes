@@ -4,6 +4,11 @@
  */
 
 
+/* no threading so far */
+function theme_init(&$a) {
+$a->theme_thread_allow = false;
+}
+
 
 function theme_content(&$a){
 	if(!local_user())
