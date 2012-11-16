@@ -516,12 +516,12 @@ header {
   margin: 0px;
   padding: 0px;
   width: 20%;
-  height: 40px;
-  background: #E0E0E0;
+  height: 35px;
+  background: #e6e6e6;
   z-index: 100;
-  -webkit-box-shadow: 0px 0px 5px rgba(224, 224, 224, 0.7);
-  -moz-box-shadow: 0px 0px 5px rgba(224, 224, 224, 0.7);
-  box-shadow: 0px 0px 5px rgba(224, 224, 224, 0.7);
+  -webkit-box-shadow: 0px 0px 5px rgba(230, 230, 230, 0.7);
+  -moz-box-shadow: 0px 0px 5px rgba(230, 230, 230, 0.7);
+  box-shadow: 0px 0px 5px rgba(230, 230, 230, 0.7);
 }
 header #site-location {
   display: none;
@@ -553,17 +553,17 @@ header #banner #logo-text {
 /** Nav **/
 nav {
   width: 80%;
-  height: 40px;
+  height: 35px;
   position: fixed;
   left: 20%;
   top: 0px;
   padding: 0px;
-  background: #E0E0E0;
+  background: #e6e6e6;
   color: #ffffff;
   z-index: 100;
-  -webkit-box-shadow: 0px 0px 5px rgba(224, 224, 224, 0.7);
-  -moz-box-shadow: 0px 0px 5px rgba(224, 224, 224, 0.7);
-  box-shadow: 0px 0px 5px rgba(224, 224, 224, 0.7);
+  -webkit-box-shadow: 0px 0px 5px rgba(230, 230, 230, 0.7);
+  -moz-box-shadow: 0px 0px 5px rgba(230, 230, 230, 0.7);
+  box-shadow: 0px 0px 5px rgba(230, 230, 230, 0.7);
 }
 nav a,
 nav a:active,
