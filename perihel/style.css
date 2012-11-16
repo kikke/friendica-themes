@@ -542,11 +542,11 @@ header #banner a:hover {
   vertical-align: top;
 }
 header #banner #logo-img {
-  height: 34px;
-  margin-top: 2px;
+  height: 23px;
+  margin-top: 4px;
 }
 header #banner #logo-text {
-  font-size: 28px;
+  font-size: 26px;
   font-weight:bold;
 }
 
