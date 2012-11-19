@@ -4,10 +4,10 @@
  */
 
 
-/* no threading so far */
-function theme_init(&$a) {
-$a->theme_thread_allow = false;
-}
+/* Comment out for no threading*/
+# function theme_init(&$a) {
+# $a->theme_thread_allow = false;
+# }
 
 
 function theme_content(&$a){
