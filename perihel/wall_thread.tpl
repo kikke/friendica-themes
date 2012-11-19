@@ -34,7 +34,7 @@
 			{{ endif }}			
 			</div>
 			
-<div class="wall-item-location">$item.location</div>	
+
 		</div>
 			<div class="wall-item-actions-author">
 				<a href="$item.profile_url" target="redir" title="$item.linktitle" class="wall-item-name-link"><span class="wall-item-name$item.sparkle">$item.name</span></a> 
