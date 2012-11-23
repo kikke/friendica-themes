@@ -53,7 +53,13 @@
 			</li>		
 		{{ endif }}	
 			
-
+		{{ if $nav.search}}
+		<li id="search-box">
+			<form method="get" action="$nav.search.0">
+				<input id="search-text" class="nav-menu-search" type="text" value="" name="search">
+			</form>
+		</li>		
+		{{ endif }}	
 		
 		<li id="nav-site-linkmenu" class="nav-menu-icon"><a href="#" rel="#nav-site-menu"><span class="icon s22 gear">Site</span></a>
 			<ul id="nav-site-menu" class="menu-popup">
