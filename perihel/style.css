@@ -1176,7 +1176,7 @@ section a {
   font-weight: bold;
 }
 .wall-item-container .wall-item-actions-author {
-  width: 100%;
+  width: 90%;
   margin-bottom: 0.3em;
 }
 .wall-item-container .wall-item-actions-social {
@@ -1229,7 +1229,7 @@ section a {
 }
 .wall-item-comment-wrapper textarea {
   height: 2.0em;
-  width: 100%;
+  width: 90%;
   font-size: 10px;
   color: #999999;
   border: 1px dotted #e4e4e4;
@@ -1413,7 +1413,7 @@ section a {
 #jot #jot-tools li a {
   display: block;
   color: #cccccc;
-  width: 100%;
+  width: 90%;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -1477,7 +1477,7 @@ section a {
     font-weight: bold;
     height: 20px;
     margin: 0 0 5px;
-    width: 100%;
+    width: 90%;
     border: 1px solid #0B4E7A;
 }
 #profile-jot-form #jot-title:-webkit-input-placeholder {
@@ -1773,7 +1773,7 @@ ul.tabs li .active {
   margin-bottom: 10px;
   padding-bottom: 10px;
   overflow: auto;
-  width: 100%;
+  width: 90%;
 }
 .field label {
   float: left;
@@ -2308,7 +2308,7 @@ a.mail-list-link {
         overflow: hidden; 
 }
 .photo-top-album-name {
-        width: 100%;
+        width: 90%;
         min-height: 2em;
         position: absolute; 
         bottom: 0px; 
