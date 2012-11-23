@@ -1386,7 +1386,7 @@ section a {
 }
 #profile-jot-form #profile-jot-text {
   height: 2.0em;
-  width: 99%;
+  width: 80%;
   font-size: 15px;
   color: #999999;
   border: 1px solid #DDD;
@@ -1477,7 +1477,7 @@ section a {
     font-weight: bold;
     height: 20px;
     margin: 0 0 5px;
-    width: 90%;
+    width: 80%;
     border: 1px solid #0B4E7A;
 }
 #profile-jot-form #jot-title:-webkit-input-placeholder {
