@@ -630,6 +630,9 @@ nav .nav-menu-search {
   margin-right: 0px;
   height: 17px;
   width: 220px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
 }
 
 nav .nav-menu-icon {
