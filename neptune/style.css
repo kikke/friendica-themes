@@ -257,6 +257,7 @@ nav .nav-link {
 .nav-button-container .nav-ajax-left {
 }
 
+/** NAVIGATION MENU LISTS **/
 .nav-menu-list {
 	text-align: center;
 	text-size: 18px;
@@ -1057,7 +1058,8 @@ input#dfrn-url {
 #id_mobile_theme {
 	width: 280px;
 }
-/** WIDGET SETTINGS **/
+
+/** WIDGET SETTINGS **/ 
 
 .settings-widget ul {
 	float: none;
@@ -1212,7 +1214,7 @@ input#dfrn-url {
 .wall-item-info {
 	display: block;
 	float: left;
-	width:110px;
+	width:80px;
 	margin-right:10px;
 }
 .comment .wall-item-info {
@@ -1220,8 +1222,8 @@ input#dfrn-url {
 }
 
 .wall-item-photo-wrapper {
-	margin-bottom: 10px;
-	width: 100px;
+	margin-bottom: 2px;
+	width: 80px;
 }
 .wall-item-photo-menu-button {
 	display: block;
@@ -1278,7 +1280,7 @@ input#dfrn-url {
     z-index: 100;
 }
 .wall-item-wrapper {
-	margin-left:10px;
+	margin-left:2px;
 }
 .wall-item-lock {
 	margin-top: 30px;
