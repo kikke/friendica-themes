@@ -2501,7 +2501,8 @@ aside input[type='text'] {
 .widget {
 	border: 1px solid #DDDDDD;
 	padding: 16px;
-	margin-top: 50px;
+	margin-top: 0px;
+	padding-top: 50px;
 /*	-moz-border-radius:5px;*/
 	-webkit-border-radius:5px;
 	border-radius:5px;
@@ -3441,7 +3442,6 @@ aside input[type='text'] {
 	color: #666666;
 	clear: left;
 }
-
 
 
 .field .onoff {
