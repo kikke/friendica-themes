@@ -2,9 +2,9 @@
 
 /*
  * Name: Perihel
- * Description: A friendica theme
- * Version: 0.2
- * Author: Oliver <oha@toktan.org>
+ * Description: A friendica theme (derived from some diabook/cleardia clones)
+ * Version: 0.5
+ * Author: a lot of friendica activists
  * Maintainer: Oliver <oha@toktan.org>
  */
 
