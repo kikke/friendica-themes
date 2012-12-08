@@ -28,7 +28,7 @@ body {
 	color: #505050;
 	margin: 0px;
 	overflow-x:hidden;
-		/* breaking long links */ 
+		/* breaking long URLs */ 
 		word-wrap: break-word;
 		-ms-word-break: break-all;
 		word-break: break-all;
