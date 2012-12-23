@@ -10,3 +10,9 @@ end.tpl
 default.php
 style.css
 
+Smarty:
+nav.tpl
+head.tpl
+photo_view.tpl
+login_head.tpl
+end.tpl
