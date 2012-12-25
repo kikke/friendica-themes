@@ -10,6 +10,10 @@ end.tpl
 default.php
 style.css
 
+
+
+
+
 Smarty:
 nav.tpl
 head.tpl
