@@ -39,10 +39,10 @@
 
 		<li><a id="nav-search-link" class="$nav.search.2 nav-load-page-link" href="$nav.search.0" title="$nav.search.3" >$nav.search.1</a></li>
 
-		{{ if $nav.apps }}
+<!--		{{ if $nav.apps }}
 		<li><a id="nav-apps-link" class="$nav.apps.2 nav-load-page-link" href="$nav.apps.0" title="$nav.apps.3" >$nav.apps.1</a></li>
 		{{ endif }}
-
+-->
 		{{ if $nav.help }}
 		<li><a id="nav-help-link" class="$nav.help.2 nav-load-page-link" target="friendica-help" href="$nav.help.0" title="$nav.help.3" >$nav.help.1</a></li>
 		{{ endif }}
