@@ -5,13 +5,13 @@
   <script>var baseurl="<?php echo $a->get_baseurl() ?>";</script>
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 </head>
-<body>
+<body <?php if($a->module === 'home') echo 'onLoad="setTimeout(\'homeRedirect()\', 1500)"'?>>
 	<?php if(x($page,'nav')) echo $page['nav']; ?>
 
 	<?php if( $a->module === 'home' ) { ?>
 	<center>
 	<div class="login-button">
-	<a href="login" class="login-button-link"><img class="login-button-image" src="images/friendica-256.png" title="Click to log in"></a>
+	<a href="login" class="login-button-link"><img class="login-button-image" src="images/friendica-1600.png" title="Click to log in"></a>
 	</div>
 	</center>
 

@@ -9,13 +9,15 @@
  * Maintainer: Oliver <oha@toktan.org>
  */
 
-$a->theme_info = array();
-$a->sourcename = 'Friendica mobile web';
-$a->videowidth = 250;
-$a->videoheight = 200;
-$a->theme_thread_allow = false;
-$a->force_max_items = 10;
-set_template_engine($a, 'smarty3');
+function neptune_init(&$a) {
+	$a->theme_info = array();
+	$a->sourcename = 'Friendica mobile web';
+	$a->videowidth = 250;
+	$a->videoheight = 200;
+	$a->theme_thread_allow = false;
+	$a->force_max_items = 10;
+	set_template_engine($a, 'smarty3');
+}
 
 function neptune_content_loaded(&$a) {
 
