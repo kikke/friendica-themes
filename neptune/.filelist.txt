@@ -1,22 +1,19 @@
 /* 
 Changed files:
-
-theme.php
-photo_view.tpl
-nav.tpl
-login_head.tpl
-head.tpl
-end.tpl
 default.php
+end.tpl
+head.tpl
+login_head.tpl
+nav.tpl
+photo_view.tpl
 style.css
-
-
+theme.php
 
 
 
 Smarty:
-nav.tpl
-head.tpl
-photo_view.tpl
-login_head.tpl
 end.tpl
+head.tpl
+login_head.tpl
+nav.tpl
+photo_view.tpl
