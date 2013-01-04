@@ -1,18 +1,18 @@
 <?php
 /**
  * Name: Viereinhalb
- * Version: 0.1.6
+ * Version: 0.9
  * Author: Fabio <http://kirgroup.com/profile/fabrixxm>
  * Author: Ike <http://pirati.ca/profile/heluecht>
  * Maintainer: Zen <https://toktan.org/profile/oha>
  * Description: "Viereinhalb" is a "Vier" variation and uses the font awesome font library: http://fortawesome.github.com/Font-Awesome/
  */
 
+function vier_init(&$a) {
 set_template_engine($a, 'smarty3');
 
 $a->theme_info = array();
 
-function viereinhalb_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 function insertFormatting(comment,BBcode,id) {
