@@ -8,8 +8,8 @@
  * Description: "Viereinhalb" is a "Vier" variation and uses the font awesome font library: http://fortawesome.github.com/Font-Awesome/
  */
 
-/*set_template_engine($a, 'smarty3');
-*/
+set_template_engine($a, 'smarty3');
+
 $a->theme_info = array();
 
 function viereinhalb_init(&$a) {
