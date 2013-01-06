@@ -3969,6 +3969,7 @@ ul.notifications-menu-popup {
 	list-style: none;
 	right: -60px;
 }
+/***some changes here***/
 #nav-notifications-menu {
 	width: 300px;
 /*	max-height: 400px;*/
@@ -3988,9 +3989,9 @@ ul.notifications-menu-popup {
 #nav-notifications-menu img { float: left; margin-right: 5px; }
 #nav-notifications-menu .notif-when { font-size: 0.8em; display: block; }
 #nav-notifications-menu li {
-	padding: 7px 0px 7px 10px;
+	padding: 5px 0px 3px 5px;
 	word-wrap:normal;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px dotted #696969;
 }
 
 #nav-notifications-menu li:hover {
