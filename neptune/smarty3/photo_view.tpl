@@ -16,8 +16,8 @@
 </div>
 
 <div id="photo-nav">
-	{{if $prevlink}}<div id="photo-prev-link"><a href="{{$prevlink.0}}"><img src="view/theme/pluto/images/arrow-left.png"></a></div>{{/if}}
-	{{if $nextlink}}<div id="photo-next-link"><a href="{{$nextlink.0}}"><img src="view/theme/pluto/images/arrow-right.png"></a></div>{{/if}}
+	{{if $prevlink}}<div id="photo-prev-link"><a href="{{$prevlink.0}}"><img src="view/theme/neptune/images/arrow-left.png"></a></div>{{/if}}
+	{{if $nextlink}}<div id="photo-next-link"><a href="{{$nextlink.0}}"><img src="view/theme/neptune/images/arrow-right.png"></a></div>{{/if}}
 </div>
 <div id="photo-photo"><a href="{{$photo.href}}" title="{{$photo.title}}"><img src="{{$photo.src}}" /></a></div>
 <div id="photo-photo-end"></div>
