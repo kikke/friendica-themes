@@ -1,0 +1,9 @@
+favicon.*
+\#*
+*.log
+*.out
+*.version*
+*~
+
+# ignore local stuff
+.DS_Store
