@@ -5,5 +5,5 @@ favicon.*
 *.version*
 *~
 
-# ignore local stuff
+#ignore OSX .DS_Store files 
 .DS_Store
