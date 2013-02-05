@@ -132,9 +132,9 @@
 		});
 		
 		// fancyboxes
-		/*$j("a.popupbox").fancybox({
-			'transitionIn' : 'elastic',
-			'transitionOut' : 'elastic'
+		/*$j("a.popupbox").colorbox({
+			'inline' : true,
+			'transition' : 'none'
 		});*/
 		
 
@@ -690,9 +690,9 @@ function setupFieldRichtext(){
 		entity_encoding : "raw",
 		add_unload_trigger : false,
 		remove_linebreaks : false,
-		force_p_newlines : false,
-		force_br_newlines : true,
-		forced_root_block : '',
+		//force_p_newlines : false,
+		//force_br_newlines : true,
+		forced_root_block : 'div',
 		convert_urls: false,
 		content_css: baseurl+"/view/custom_tinymce.css",
 		theme_advanced_path : false,
