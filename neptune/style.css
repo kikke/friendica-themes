@@ -2589,7 +2589,7 @@ aside input[type='text'] {
 	border: 1px solid #DDDDDD;
 	padding: 16px;
 	margin-top: 0px;
-/*	padding-top: 50px;*/
+	padding-top: 50px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
