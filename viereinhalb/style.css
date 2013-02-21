@@ -1020,6 +1020,9 @@ section {
   max-width: 766px;
   padding: 10px 10px 10px 10px;
   background-color: white;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
 }
 /* wall item */
 .tread-wrapper {
@@ -1091,6 +1094,7 @@ border-bottom: 1px solid #D2D2D2;
   max-width: 660px;
   word-wrap: break-word;
   line-height: 1.36;
+  padding-bottom: 6px;
 }
 
 .wall-item-container .wall-item-content img {
@@ -1306,11 +1310,11 @@ border-bottom: 1px solid #D2D2D2;
 }
 .tag {
   color: rgb(153,153,153);
-  padding-left: 3px;
-  font-size: 10px;
+  /*padding-left: 3px;
+  font-size: 10px;*/
 }
 .tag a {
-  padding-right: 8px;
+  /*padding-right: 8px;*/
   color: rgb(153,153,153);
 }
 .wwto {
