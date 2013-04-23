@@ -10,10 +10,3 @@ style.css
 theme.php
 
 
-
-Smarty:
-end.tpl
-head.tpl
-login_head.tpl
-nav.tpl
-photo_view.tpl
