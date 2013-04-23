@@ -8,7 +8,7 @@
  * Description: "Viereinhalb" is a "Vier" variation with smaller font size and varied colors. It uses the font awesome font library: http://fortawesome.github.com/Font-Awesome/
  */
 
-function vier_init(&$a) {
+function viereinhalb_init(&$a) {
 set_template_engine($a, 'smarty3');
 
 $a->theme_info = array();
