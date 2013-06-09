@@ -4,8 +4,8 @@
  * Version: 0.9
  * Author: Fabio <http://kirgroup.com/profile/fabrixxm>
  * Author: Ike <http://pirati.ca/profile/heluecht>
- * Maintainer: Zen <https://toktan.org/profile/oha>
- * Description: "Viereinhalb" is a "Vier" variation with smaller font size and varied colors. It uses the font awesome font library: http://fortawesome.github.com/Font-Awesome/
+ * Maintainer: Oliver <https://toktan.org/profile/oha>
+ * Description: "Viereinhalb" is a "Vier" variation. It uses the font awesome font library: http://fortawesome.github.com/Font-Awesome/
  */
 
 function viereinhalb_init(&$a) {
