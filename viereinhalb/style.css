@@ -1,6 +1,7 @@
 /**
  * Fabio Comuni <http://kirgroup.com/profile/fabrixxm>
  * Additional Changes: Michael Vogel <icarus@dabo.de>
+ * More additional Changes: Oliver Hartmann <https://toktan.org/profile/oha>
  **/
 
 /* @import "css/font-awesome.css"; */
@@ -294,7 +295,7 @@ body {
   /* background-color: #ffffff; */
   /* background-color: #ddd; */
   background-color: #F2F2F2;
-  color: #2d2d2d;
+  color: #524f54; /*viereinhalb*/
   /* margin: 37px 0px 0px 0px; */
   margin: 32px 0px 0px 0px;
   display: table;
@@ -442,11 +443,11 @@ code {
 
 a.nets-link, .side-link a, #sidebar-new-group a, a.savedsearchterm, a.fileas-link, aside h4 a {
   display: block;
-  color: black;
+  color: #524f54; /*viereinhalb*/
 }
 
 a.sidebar-group-element {
-  color: black;
+  color: #524f54; /*viereinhalb*/
 }
 
 #follow-sidebar form, #peoplefind-sidebar form, #netsearch-box form, #posted-date-selector {
@@ -464,7 +465,7 @@ a.sidebar-group-element {
 }
 
 #forum-list a, .tool a, .admin.link a {
-  color: black;
+  color: #524f54; /*viereinhalb*/
 }
 
 #forum-list {
@@ -531,7 +532,7 @@ nav {
   top: 0px;
   padding: 0px;
   padding-left: 0px;
-  background: #2d2d2d;
+  background: #524f54; /*viereinhalb*/
   /*background: #364A84;
     background: -moz-linear-gradient(top, #516499 0%, #364a84 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#516499), color-stop(100%,#364a84));
@@ -621,12 +622,12 @@ nav .nav-menu-icon.selected {
 nav .nav-menu-icon img {
   width: 22px;
   height: 22px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+/*  -webkit-border-radius: 2px; /viereinhalb
+  -moz-border-radius: 2px;
+  border-radius: 2px; */
 }
 nav .nav-menu-icon .nav-notify {
-  top: 3px;
+  top: 0px; /*viereinhalb*/
 }
 nav .nav-menu-label {
   margin: 3px 5px 0px;
@@ -648,35 +649,25 @@ nav .nav-menu {
 }*/
 
 nav .nav-menu.selected {
-  border-bottom: 3px solid #518499; /*viereinhalb*/
- /*  background-color: #364E59; */
+  border-bottom: 3px solid #ccc; /*viereinhalb*/
+
 }
 
 nav .nav-menu:hover {
-    /* color: #fff !important; */
     color: #fff;
-    /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); */
-/*    background: #4c619c; */
     text-decoration: none;
 }
 nav .nav-notify {
   display: none;
   position: absolute;
- /*  background-color: #36c; */
-   background-color: #FC0; /*viereinhalb*/
-  /* background-color: #19aeff; */
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
+  background-color: #FC0; /*viereinhalb*/
   font-size: 10px;
-  padding: 1px 3px;
-  top: 0px;
-  /* right: -10px; */
-  right: -5px;
+  padding: 0px 3px;
+  top: -3px;
+  right: 0px;
   min-width: 15px;
-  /* text-align: right; */
   text-align: center;
-  color: white;
+  color: #524f54;
 }
 nav .nav-notify.show {
   display: block;
@@ -767,7 +758,7 @@ ul.menu-popup {
 }
 ul.menu-popup a {
   display: block;
-  color: #2d2d2d;
+  color: #524f54; /*viereinhalb*/
   padding: 5px 10px;
   text-decoration: none;
 }
@@ -1200,7 +1191,7 @@ border-bottom: 1px solid #D2D2D2;
 }
 
 .wall-item-container .wall-item-name {
-  color: black;
+  color: #524f54; /*viereinhalb*/
   font-weight: bold;
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1237,7 +1228,7 @@ border-bottom: 1px solid #D2D2D2;
 .wall-item-container:hover .fakelink,
 .toplevel_item:hover .wall-item-content a,
 .wall-item-container:hover .wall-item-content a {
-  color: #36c;
+  /*color: #36c;*/ 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1373,8 +1364,6 @@ border-bottom: 1px solid #D2D2D2;
 }
 
 #profile-jot-form #jot-title, #profile-jot-form #jot-category {
-    
-         border-radius: 5px 5px 5px 5px;
     font-weight: bold;
     height: 20px;
     margin: 0 0 5px;
@@ -1457,9 +1446,9 @@ border-bottom: 1px solid #D2D2D2;
   height: 48px;
   overflow: hidden;
   display: block;
-  -webkit-border-radius: 4px;
+/*  -webkit-border-radius: 4px; / viereinhalb
   -moz-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 4px; */
 }
 
 .contact-photo img {
@@ -1673,15 +1662,15 @@ border-bottom: 1px solid #D2D2D2;
   margin-bottom: 5px; /*viereinhalb*/
 }
 
-/** buttons **/
-/*input[type="submit"] {
-	border: 0px;
-    background-color: @ButtonBackgroundColor;
-    color: @ButtonColor;
+/** buttons **/ /*viereinhalb*/
+input[type="submit"] {
+	border: 1px solid lightgray;
+    background-color: #ececf2;
+    color: #524f54;
     padding: 0px 10px;
-	.rounded(5px);
-    height: 18px;
-}*/
+    height: 22px;
+    cursor: pointer;
+}
 /** acl **/
 #photo-edit-perms-select, #photos-upload-permissions-wrapper, #profile-jot-acl-wrapper {
   display: block!important;
@@ -1817,16 +1806,13 @@ ul.tabs a {
 
 div.pager, .birthday-notice, #jot-preview-link, .comment-edit-submit-wrapper .fakelink {
     padding: 2px 7px 2px 7px;
-    color: black;
+    color: #524f54;
 }
 
 div.pager, .birthday-notice, ul.tabs a, #jot-preview-link, .comment-edit-submit-wrapper .fakelink {
 	font: -webkit-small-control; /*viereinhalb*/
         border: 1px solid lightgray;
-    padding: 0px 5px 3px 5px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    padding: 3px 5px 4px 5px;
     line-height: 1.5em;
     background: #ececf2;
 }
