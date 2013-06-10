@@ -752,9 +752,9 @@ ul.menu-popup {
   list-style: none;
   border: 3px solid #364e59;
   z-index: 100000;
-  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+ /* -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);*/
 }
 ul.menu-popup a {
   display: block;
