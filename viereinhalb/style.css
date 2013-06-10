@@ -1783,9 +1783,9 @@ ul.tabs {
   margin-bottom: 5px;
   line-height: 27px;
   height: 27px;
-  font-size: 11px;
-  font-weight: bold;
-  /* margin-bottom: 30px; */
+  font-size: 12px;
+ /* font-weight: bold;
+   margin-bottom: 30px; */
 }
 ul.tabs li {
   float: left;
@@ -1814,7 +1814,7 @@ div.pager, .birthday-notice, ul.tabs a, #jot-preview-link, .comment-edit-submit-
         border: 1px solid lightgray;
  /*   padding: 3px 5px 4px 5px; */
     line-height: 1.5em;
-    background: #ececf2;
+ /*   background: #ececf2; */
 }
 
 ul.tabs a:hover {
