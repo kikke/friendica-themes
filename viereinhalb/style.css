@@ -1812,7 +1812,7 @@ div.pager, .birthday-notice, #jot-preview-link, .comment-edit-submit-wrapper .fa
 div.pager, .birthday-notice, ul.tabs a, #jot-preview-link, .comment-edit-submit-wrapper .fakelink {
 	font: -webkit-small-control; /*viereinhalb*/
         border: 1px solid lightgray;
-    padding: 3px 5px 4px 5px;
+ /*   padding: 3px 5px 4px 5px; */
     line-height: 1.5em;
     background: #ececf2;
 }
