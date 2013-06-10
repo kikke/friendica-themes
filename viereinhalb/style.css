@@ -1805,7 +1805,7 @@ ul.tabs a {
 }
 
 div.pager, .birthday-notice, #jot-preview-link, .comment-edit-submit-wrapper .fakelink {
-    padding: 2px 7px 2px 7px;
+    padding: 1px 7px 1px 7px;
     color: #524f54;
 }
 
