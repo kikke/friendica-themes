@@ -6,8 +6,8 @@
  * Zach P
  *
  * Slightly modified for Neptune
- * Zen
- */
+ * https://toktan.org/u/oha
+ **/
 
 
 /** GENERALS **/
@@ -53,9 +53,9 @@ a:hover {text-decoration: underline; }
 
 input {
 	border: 1px solid #666666;
-/*	-moz-border-radius: 3px;*/
+/*	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;	
+	border-radius: 3px;	*/
 	padding: 3px;
 }
 
@@ -139,7 +139,7 @@ blockquote {
 	/*background-color: ivory;
 	border: 1px solid #444;*/
 
-	border-radius: 7px;
+	/*border-radius: 7px;*/
 	background-color: #222;
 	color: #eee;
 }
@@ -221,9 +221,9 @@ nav #banner #logo-text a:hover { text-decoration: none; }
 	border-bottom: 0px;
 	background-color: #aec0d3;
 	color: #565854;		
-	-moz-border-radius: 3px 3px 0px 0px;
+/*	-moz-border-radius: 3px 3px 0px 0px;
 	-webkit-border-radius: 3px 3px 0px 0px;
-	border-radius: 3px 3px 0px 0px;	
+	border-radius: 3px 3px 0px 0px;	*/
 }
 
 .nav-commlink.selected {
@@ -241,9 +241,9 @@ nav #banner #logo-text a:hover { text-decoration: none; }
 	top: 22px;
 	right: 2px;
 	padding: 1px 2px;
-	border-radius: 4px;
+/*	border-radius: 4px;
 	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+	-webkit-border-radius: 4px;*/
 	background-color: gold !important;
 }
 
@@ -276,7 +276,7 @@ nav .nav-link {
 	text-size: 18px;
 	line-height: 24px;
 
-	border-left: 1px solid #aaa;/*#444444;*/
+	border-left: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
@@ -292,9 +292,9 @@ nav .nav-link {
 /*	right: -33px;*/
 	padding: 1em 0px;
 
-	-moz-box-shadow: 3px 3px 5px #555;
+/*	-moz-box-shadow: 3px 3px 5px #555;
 	-webkit-box-shadow: 3px 3px 5px #555;
-	box-shadow: 3px 3px 5px #555;
+	box-shadow: 3px 3px 5px #555;*/
 
 	z-index: 10000;
 }
@@ -346,9 +346,9 @@ div.main-container {
 #dfrn-request-link {
 	display: block;
 	color: #FFFFFF;
-	-webkit-border-radius: 5px ;
+/*	-webkit-border-radius: 5px ;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 5px;*/
 	padding: 5px;
 	font-weight: bold;
 	background: #3465a4 url('friendica-16.png') no-repeat 95% center;
@@ -356,9 +356,9 @@ div.main-container {
 #wallmessage-link {
 	display: block;
 	color: #FFFFFF;
-	-webkit-border-radius: 5px ;
+/*	-webkit-border-radius: 5px ;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 5px;*/
 	padding: 5px;
 	font-weight: bold;
 	background-color: #3465a4;
@@ -413,9 +413,9 @@ section {
 .tabs a {
 	padding: 0.4em 0.4em;
 	border: 1px solid #bcbcbc;
-	border-radius: 8px;
+/*	border-radius: 8px;
 	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	-webkit-border-radius: 8px;*/
 }
 .tab {
 	/*display:block;*/
@@ -429,6 +429,7 @@ section {
 }
 .tab.active {
 	font-weight: bold;
+	background-color: #f3f3f3;
 	
 }
 #events-tab {
@@ -531,9 +532,9 @@ footer {
 
 .group-selected, .nets-selected, .fileas-selected, .categories-selected {
 	padding: 3px;
-	-moz-border-radius: 3px;
+/*	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;	
+	border-radius: 3px;	*/
 	border: 1px solid #CCCCCC;
 	background: #F8F8F8;
 	font-weight: bold;
@@ -1225,9 +1226,9 @@ input#dfrn-url {
 	margin-left: 5px;
 	margin-right: 5px;
 	border: 2px solid #AAAAAA;
-	border-radius: 10px;
+/*	border-radius: 10px;
 	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+	-moz-border-radius: 10px;*/
 /*	background: #EEEEEE;*/
 }
 
@@ -1405,7 +1406,7 @@ input#dfrn-url {
 }
 .wall-item-photo {
 	border: none;
-	border-radius: 7px;
+	/*border-radius: 7px;*/
 }
 .comment .wall-item-photo {
 	width: 50px !important; 
@@ -1453,9 +1454,9 @@ input#dfrn-url {
 	margin-left: auto;
 	/*max-width: 290px;*/
 	max-width: 100%;
-	border-radius: 7px;
+/*	border-radius: 7px;
 	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
+	-webkit-border-radius: 7px;*/
 }
 
 /*.comment .wall-item-body img {
@@ -1465,8 +1466,8 @@ input#dfrn-url {
 .wall-item-body img.smiley {
 	display: inline;
 	margin: auto;
-	border-radius: 0;
-	-webkit-border-radius: 0;
+	/*border-radius: 0;
+	-webkit-border-radius: 0;*/
 }
 
 .wall-item-body blockquote {
@@ -1540,7 +1541,7 @@ input#dfrn-url {
 .comment-wwedit-wrapper.comment {
 	margin-left: 40px;
 	margin-right: 40px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 
@@ -1561,9 +1562,9 @@ input#dfrn-url {
 }
 .comment-edit-text-empty, .comment-edit-text-full {
 /*	float: left;*/
-	-moz-border-radius: 3px;
+/*	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;	
+	border-radius: 3px;	*/
 	border: 1px solid #cccccc;
 	padding: 3px 1px 1px 3px;
 }
@@ -1630,14 +1631,14 @@ input#dfrn-url {
 	margin: auto 1em auto auto;
 	padding: 0;
 
-	box-shadow: none;
+/*	box-shadow: none;
 	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
+	-webkit-box-shadow: none;*/
 }
 
 #profile-jot-plugin-wrapper,
 #profile-jot-submit-wrapper {
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 #profile-jot-submit {
@@ -1852,9 +1853,9 @@ input#profile-jot-email {
 	font-size: 1.5em;
 	padding: 0.2em 1em;
 	border: 1px solid #aaa;
-	border-radius: 10px;
+/*	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;*/
 }
 
 
@@ -1912,18 +1913,18 @@ input#profile-jot-email {
 	font-size: 1.5em;
 	padding: 0.2em 1em;
 	border: 1px solid #aaa;
-	border-radius: 10px;
+/*	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;*/
 }
 
 .pager_current {
 	display: none;
 	float: left;
 	border: 1px solid black;
-	border-radius: 7px;
+/*	border-radius: 7px;
 	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
+	-webkit-border-radius: 7px;*/
 	background: #FFCCCC;
 	font-size: 1.25em;
 	text-align: center;
@@ -2158,9 +2159,9 @@ input#profile-jot-email {
 	left: -30px; top: 80px;
 	display: none;
 	z-index: 10000;
-	-moz-box-shadow: 3px 3px 5px #555;
+/*	-moz-box-shadow: 3px 3px 5px #555;
 	-webkit-box-shadow: 3px 3px 5px #555;
-	box-shadow: 3px 3px 5px #555;
+	box-shadow: 3px 3px 5px #555;*/
 }
 .contact-photo-menu ul { margin:0px; padding: 0px; list-style: none }
 .contact-photo-menu li a { display: block; padding: 2px; }
@@ -2196,7 +2197,7 @@ input#profile-jot-email {
 	width: 100%;
 	color: #FF0000;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 #profile-jot-text {
@@ -2205,9 +2206,9 @@ input#profile-jot-email {
 	color:#cccccc;
 	border: 1px solid #cccccc;
 	padding: 3px 0px 0px 5px;
-	-moz-border-radius: 3px;
+/*	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;	
+	border-radius: 3px;	*/
 }
 
 
@@ -2235,7 +2236,7 @@ input#profile-jot-email {
 #photo-edit-perms-select {
 	padding: 0.7em;
 	border: 1px solid #888;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 #acl-wrapper {
@@ -2260,9 +2261,9 @@ input#profile-jot-email {
 	background-position: 7px 7px;
 	background-repeat: no-repeat;
 	padding: 7px 15px 7px 30px;
-	-webkit-border-radius: 5px ;
+/*	-webkit-border-radius: 5px ;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 5px;*/
 	color: #999999;
 	margin-bottom: 0.3em;
 }
@@ -2287,9 +2288,9 @@ input#profile-jot-email {
 	width: 190px;
 	height: 30px;
 	border: 1px solid #cccccc;
-	-moz-border-radius: 4px;
+/*	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-	border-radius: 4px;
+	border-radius: 4px;*/
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-right: 2px;
@@ -2315,9 +2316,9 @@ input#profile-jot-email {
 	background-position: 3px 3px;
 	background-repeat: no-repeat;
 	margin-right: 5px;
-	-webkit-border-radius: 2px ;
+/*	-webkit-border-radius: 2px ;
 	-moz-border-radius: 2px;
-	border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;*/
 
 	padding: 0px 5px 3px 15px;
 }
@@ -2599,9 +2600,9 @@ aside input[type='text'] {
 	padding: 16px;
 	margin-top: 0px;
 	padding-top: 50px;
-	-moz-border-radius:5px;
+/*	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	border-radius:5px;
+	border-radius:5px;*/
 }
 .widget.settings-widget {
 /*	padding: 0;*/
@@ -2660,9 +2661,9 @@ aside input[type='text'] {
 }
 .photo-top-image-wrapper img {
 	max-width: 290px;
-	border-radius: 10px;
+	/*border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;*/
 }
 .photo-top-album-name {
 	width: 100%;
@@ -2831,9 +2832,9 @@ aside input[type='text'] {
 	padding-left: 1em;
 	margin-top: 15px;
 	border: 1px solid #aaa;
-	border-radius: 10px;
+	/*border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;*/
 }
 
 #photo-edit-perms-end {
@@ -4102,7 +4103,7 @@ div.jGrowl div.info {
 	right: 10px;
 }
 div.jGrowl-notification {
-  border-radius: 7px;
+  /*border-radius: 7px;*/
 }
 .qcomment {
 	border: 1px solid #EEE;
@@ -4158,13 +4159,13 @@ ul.notifications-menu-popup {
 	height: auto;
 /*	overflow-y: scroll;overflow-style:scrollbar;*/
 	background-color:#FFFFFF;
-	-moz-border-radius: 5px;
+/*	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	border-radius:5px;
+	border-radius:5px;*/
 	border: 1px solid #AAA;
-	-moz-box-shadow: 3px 3px 5px #555;
+/*	-moz-box-shadow: 3px 3px 5px #555;
 	-webkit-box-shadow: 3px 3px 5px #555;
-	box-shadow: 3px 3px 5px #555;
+	box-shadow: 3px 3px 5px #555; */
 /*	z-index: 103;*/
 }
 #nav-notifications-menu .contactname { font-weight: bold; font-size: 0.9em; }
